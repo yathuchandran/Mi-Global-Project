@@ -1,0 +1,248 @@
+@font-face {
+    font-family: Bold;
+    src: url(./images/fonts/Brand.ttf);
+}
+@font-face {
+    font-family: light;
+    src: url(./images/fonts/4.ttf);
+}
+
+
+.container {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: light;
+    margin: 0;
+
+}
+
+.main {
+    width: 100%;
+    height: 9vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.feature {
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.item {
+    padding-left: 30PX;
+
+}
+
+.navItem {
+    padding: 20px;
+}
+
+.disc {
+    padding-left: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.disc i{
+    color: black;
+    padding:10px;
+}
+.section {
+    background-color: brown;
+
+}
+
+.button {
+    position: absolute;
+    background-color: aliceblue;
+    color: black;
+    font-size: 1.4rem;
+    font-weight: 600;
+    border-radius: 15px;
+    right: 30%;
+    font-family: Bold;
+    top: 65%;
+    width: 150px;
+    height: 50px;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+.section2 {
+    display: flex;
+    position: relative;
+}
+
+.left1 {
+    position: absolute;
+    top: 250px;
+    left: 150px;
+
+}
+
+.button1 {
+    position: absolute;
+    right: 83%;
+    top: 60%;
+    width: 150px;
+    height: 50px;
+}
+
+.left {
+    width: 100%;
+    height: auto;
+    position: relative;
+    text-align: center;
+
+}
+
+.color {
+    color: rgb(244, 111, 16);
+    padding-left: 90px;
+}
+
+.p {
+    padding-left: 50px;
+}
+
+.redmi {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    font-size: large;
+
+}
+
+.right {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    position: relative;
+    
+}
+
+.white {
+    color: aliceblue;
+}
+
+
+
+.section3 {
+    background-color: black;
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.section4 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 800px;
+    flex-direction: row;
+}
+
+.leftSec {
+    text-align: center;
+    width: 990px;
+    margin-right: 10px;
+    height:596px;
+  background: url("./images/30dad9d8deca08828eae4d97bf13c758.webp") no-repeat;
+  background-size:cover;
+  box-shadow: 4px 3px 6px rgba(0, 0, 0, 0.1607843137);
+  border-radius: 15px;
+  opacity: 1;
+}
+
+.rightSec {
+
+    height:596px;
+    display: flex;
+    flex-direction: row;
+}
+
+.right1 {
+    text-align: center;
+    width: 456px;
+    
+    margin-right: 10px;
+    background: url("./images/nintekunddi.webp")no-repeat;
+    box-shadow: 4px 3px 6px rgba(0, 0, 0, 0.1607843137);
+    background-position-x: center;
+    background-size: contain;
+    border-radius: 15px;
+    opacity: 1;
+}
+
+.right2 {
+    text-align: center;
+    width: 456px;
+    background: url("./images/tab.png")no-repeat;
+    box-shadow: 4px 3px 6px rgba(0, 0, 0, 0.1607843137);
+    border-radius: 15px;
+    background-position-y:95% ;
+    background-size: contain;
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+.section5 {
+    background-color: rgb(138, 234, 86);
+    display: flex;
+    width: 100%;
+    height: 70%;
+}
+
+.leftSec1 {
+    width: 100%;
+    height: 100%;
+
+}
+
+.rightSec1 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.section6 {
+    background-color: black;
+    width: 100%;
+    height: 50vh;
+
+}
+.fItem{
+    color: white;
+    width:20%;
+    line-height: 8px;
+}
+.fItem h3{
+    font-size: 2rem;
+}
+.fItem h6{
+    font-size: 0.7rem;
+}
+.sec{
+    display: flex;
+    padding-top: 3rem;
+    padding-left: 3rem;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
